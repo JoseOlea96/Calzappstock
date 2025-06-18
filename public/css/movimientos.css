@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.inicio-btn {
+    float: right;
+    margin-top: -50px; /* Adjust as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    color: var(--accent-color);
+    font-weight: 700;
+    padding: 5px 10px;
+    border: 1px solid var(--gray-color-200);
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inicio-btn:hover {
+    background-color: #28a745; /* Darker blue on hover */
+    color: #fff;
+}
